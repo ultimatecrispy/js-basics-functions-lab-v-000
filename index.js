@@ -15,3 +15,7 @@ function distanceFromHqInFeet(street) {
   blocks = distanceFromHqInBlocks(street);
   return blocks * 264;
 }
+
+function distanceTravelledInFeet() {
+
+}
