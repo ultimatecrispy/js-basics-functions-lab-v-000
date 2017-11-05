@@ -16,6 +16,6 @@ function distanceFromHqInFeet(street) {
   return blocks * 264;
 }
 
-function distanceTravelledInFeet() {
-  
+function distanceTravelledInFeet(start, finish) {
+  return (finish-start)*264;
 }
