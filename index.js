@@ -26,7 +26,7 @@ function calculatesFarePrice(start, finish) {
     case (distance < 400):
       return distance;
       break;
-    default:
-      return "try again";
+    // default:
+    //   return "try again";
   }
 }
