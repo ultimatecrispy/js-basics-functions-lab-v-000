@@ -21,5 +21,6 @@ function distanceTravelledInFeet(start, finish) {
 }
 
 function calculatesFarePrice(start, finish) {
-  switch: 
+  distance = finish - start;
+  switch ():
 }
