@@ -24,9 +24,9 @@ function calculatesFarePrice(start, finish) {
   distance = distanceTravelledInFeet(start, finish);
   switch (distance) {
     case (distance <= 400):
-      return "Free";
+      return distance;
       break;
     default:
-      return distance;
+      return "try again";
   }
 }
