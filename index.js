@@ -7,6 +7,9 @@ function distanceFromHqInBlocks(street) {
   }
 }
 
+function calculateVertical(start, finish) {
+  
+}
 
 function distanceFromHqInFeet(blocks) {
   return blocks * 6;
