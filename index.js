@@ -1,9 +1,9 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(distance) {
-  if (distance >=42) {
-    return distance-42;
+function distanceFromHqInBlocks(street) {
+  if (street >=42) {
+    return street-42;
   } else {
-    return 42-distance;
+    return 42-street;
   }
 }
 
