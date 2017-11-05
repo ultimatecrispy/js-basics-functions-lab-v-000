@@ -7,9 +7,9 @@ function distanceFromHqInBlocks(street) {
   }
 }
 
-function calculateVertical(start, finish) {
-  return (finish-start)*264;
-}
+// function calculateVertical(start, finish) {
+//   return (finish-start)*264;
+// }
 
 function distanceFromHqInFeet(blocks) {
   return blocks * 6;
