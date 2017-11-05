@@ -14,7 +14,7 @@ function distanceFromHqInFeet(street) {
 
 function distanceTravelledInFeet(start, finish) {
   if (finish > start) {
-    return (finish-start)*264;
+    return (finish - start) * 264;
   } else {
     return (start - finish) * 264;
   }
