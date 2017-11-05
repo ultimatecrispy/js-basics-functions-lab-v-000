@@ -27,6 +27,6 @@ function calculatesFarePrice(start, finish) {
       return "Free";
       break;
     default:
-      return "";
+      return "Try again";
   }
 }
