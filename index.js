@@ -22,11 +22,9 @@ function distanceTravelledInFeet(start, finish) {
 
 function calculatesFarePrice(start, finish) {
   distance = distanceTravelledInFeet(start, finish);
-  switch (distance) {
-    case (distance < 400):
-      return 0;
-      break;
-    // default:
-    //   return "try again";
+  if (distance <= 400) {
+    return 0;
+  } else if {
+
   }
 }
