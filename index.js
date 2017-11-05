@@ -12,5 +12,5 @@ function distanceFromHqInBlocks(street) {
 // }
 
 function distanceFromHqInFeet(blocks) {
-  return blocks * 6;
+  return blocks * 264;
 }
